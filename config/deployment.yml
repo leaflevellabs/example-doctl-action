@@ -38,6 +38,7 @@ metadata:
     external-dns.alpha.kubernetes.io/hostname: "doctl-action.do-api.dev"
     service.beta.kubernetes.io/do-loadbalancer-certificate-id: "5d3b60d0-bab0-44ef-9ea0-1dcd314d282c"
     service.beta.kubernetes.io/do-loadbalancer-redirect-http-to-https: "true"
+    linkerd.io/inject:enabled: "true"
 spec:
   type: LoadBalancer
   ports:
